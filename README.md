@@ -18,6 +18,8 @@ The format of retrieving a fact about some date is: `http://numbersapi.com/<mont
 - Extract the raw message text from the `HttpResponseMessage` object using `ReadAsStringAsync` method;
 - Display the message;
 
-> Note
-> 
-> This task does not have unit tests. You can verify the correctness of your code based on a successful response from the API.
+**Note:** This task does not have unit tests. You can verify the correctness of your code based on a successful response from the API.
+
+### Hints
+> 1. You can make an HTTP request using an `HttpClient` object;
+> 2. The response of the HTTP request can be stored in an `HttpResponseMessage` object;
